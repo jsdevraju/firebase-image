@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Button from "../app/components/button/Button";
 import { RootState, useAppDispatch } from "../app/store/store";
-import styles from "../styles/home.module.css";
 import { FcAddImage } from "react-icons/fc";
 import { FormSubmit, ICollection, InputChange } from "../app/types/typescript";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
@@ -19,6 +18,7 @@ import { setCollection } from "../app/redux/collection/collectionSlice";
 import HomeImageCard from "../app/components/homeImageCard/HomeImageCard";
 import HomeModel from "../app/components/homeModel/HomeModel";
 import Meta from "../app/components/meta/Meta";
+import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   const router = useRouter();
