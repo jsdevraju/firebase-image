@@ -1,0 +1,54 @@
+.editProfile{
+    padding: 5em 0px;
+}
+
+.wrapperLeft{
+    width: 350px;
+}
+.wrapperRight{
+    flex: 1;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.avatarProfile{
+    width: 350px;
+}
+
+.profile_img {
+    flex: 1 1;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.btn{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 0.6em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.uploadArea{
+    border: 1px dashed #ddd;
+}
+
+.wrapperUpload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.wrapperUpload p{
+    color: #cbd5e1    ;
+}
+
+@media (max-width:550px){
+    .profileArea{
+        flex-direction: column !important;
+    }
+}

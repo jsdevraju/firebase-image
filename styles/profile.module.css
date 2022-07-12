@@ -1,0 +1,62 @@
+.profile{
+    padding: 5em 0px;
+    background: #f3f4f6;
+}
+
+.profileWrapper{
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.padding{
+   padding: 1em;
+}
+
+.header{
+    font-size: 1.2em;
+    line-height: 1.5rem;
+    color:#111827
+}
+
+.profileP{
+    margin-top: 0.25rem; 
+    max-width: 42rem; 
+    color:#111827
+}
+
+.infoArea{
+    border-top: 1px solid #e2e8f0;
+    margin-top: 1em;
+}
+.oneInfoBasic{
+    background-color: #f8fafc;
+    padding: 1rem; 
+    gap: 5em;
+   justify-content: space-between;
+}
+
+.bg_white{
+    background-color: #fff;
+}
+
+.bg_white .title{
+    color: #4b4a4a;
+    font-weight: 500;
+    text-align: left;
+}
+
+.title{
+    font-size: 0.875rem; 
+    line-height: 1.25rem; 
+    color: #475569;
+    text-align: left;
+}
+
+.name{
+    margin-top: 0.25em;
+    color: #475569;
+    font-size: 0.875rem; 
+    text-align: left;
+}

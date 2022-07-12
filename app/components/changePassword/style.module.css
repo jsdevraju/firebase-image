@@ -1,0 +1,10 @@
+.passwordChangeOption{
+    flex: 1 1;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.changePassword{
+    width: 350px;
+}
